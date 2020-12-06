@@ -1,3 +1,81 @@
 body{
-    background-color: aqua;
+    margin-top: 0px;
+    background-color: black;
+    background-image: url(assets/img2.jpg);
+    text-align: left;
+    background-attachment:fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    font-size: 80px;
+    font-weight: 10;
+    max-width: 55%;
+    font-family: 'Pacifico', cursive;
+    color: rgb(4, 255, 230);
+    margin-top: 5% ;
+    margin-left: 3% ;
+    background: none;
+    transition: 0.5s;
+}
+
+.intro1{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 40px;
+    max-width: 58%;
+    transition: 0.5s;
+}
+
+
+.intro2{
+
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    margin-top: 100px;
+    color: white;
+    font-size: 50px;
+    max-width: 55%;
+    transition: 0.5s;
+}
+button{
+    margin-top: 30px;
+    color: white;
+    font-size: 80px;
+    background: none;
+    border:2px solid rgb(4, 255, 230);
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    text-decoration: none;
+    letter-spacing: 7px;
+    width: 20%;
+    max-width: 50%;
+    transition: 0.5s;
+    outline: none;
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    width:40%;
+    letter-spacing: 50px;
+    color:black;
+    background-color:rgb(4, 255, 230) ;
+
+}
+button:focus{
+    color:white;
+    background: none;
+}
+
+.dot{
+    color: rgb(4, 255, 230);
+}
+a{
+    color: inherit;
+    text-decoration: none;
 }
